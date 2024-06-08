@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.top-menu {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.top-menu h1 {
+  margin: 0;
+}
+
+.top-menu nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.top-menu nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.top-menu nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  margin: 20px;
+}
+
+.add-bookmark, .bookmark-manager, .login, .register {
+  margin: 20px;
+}
+
+form {
+  margin: 20px 0;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+form input {
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.error {
+  color: red;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+/* Add the following CSS for the delete popup */
+
+.delete-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 1px solid black;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.delete-popup button {
+  margin: 5px;
+}
